@@ -1,7 +1,7 @@
 {
   "name": "projects-with-webpack",
-  "version": "1.2.0",
-  "description": "This Package is for Developing, Compiling & Building frontend technology such as Website templates, vanilla JavaScript Web Applications etc. It is easier to use and also have full production level code support. It can work with multiple projects in one place with minimum configuration. For features and instructions view README.md",
+  "version": "1.3.0",
+  "description": "This Package is for Developing, Compiling & Building Website templates, vanilla JavaScript Web Applications, React Web Applications etc. It is easier to use and also have full production level code support. It can work with multiple projects in one place with minimum configuration. For features and instructions view README.md",
   "main": "index.html",
   "scripts": {
     "start": "NODE_ENV=development webpack serve",
