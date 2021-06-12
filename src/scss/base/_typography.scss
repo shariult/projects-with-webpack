@@ -1,0 +1,47 @@
+// Importing Fonts
+@font-face {
+  font-family: "Jost";
+  src: url("./vendor/fonts/Jost-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("./vendor/fonts/Jost-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("./vendor/fonts/Jost-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("./vendor/fonts/Jost-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+$font-size-default: 1.6rem;
+$font-heading: "Jost", serif;
+$font-paragraph: "Jost", sans-serif;
+
+// Setting Fonts
+body {
+  font-weight: normal;
+  font-family: $font-paragraph;
+  font-size: $font-size-default;
+  color: $grey-d;
+  line-height: 1.6; // equal to font-size
+}
+
+// Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-heading;
+}

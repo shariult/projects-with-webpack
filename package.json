@@ -1,0 +1,39 @@
+{
+  "name": "projects-with-webpack",
+  "version": "1.2.0",
+  "description": "This Package is for Developing, Compiling & Building frontend technology such as Website templates, vanilla JavaScript Web Applications etc. It is easier to use and also have full production level code support. It can work with multiple projects in one place with minimum configuration. For features and instructions view README.md",
+  "main": "index.html",
+  "scripts": {
+    "start": "NODE_ENV=development webpack serve",
+    "build": "NODE_ENV=production webpack",
+    "reset": "NODE_ENV=reset webpack serve"
+  },
+  "author": "Md. Shariul Islam Tuhin",
+  "license": "MIT",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "last 5 version",
+    "> 0.5%",
+    "IE 10"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-transform-runtime",
+        {
+          "corejs": 3,
+          "regenerator": true
+        }
+      ],
+      "@babel/plugin-proposal-class-properties"
+    ]
+  }
+}

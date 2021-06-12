@@ -1,0 +1,59 @@
+.container {
+  min-height: 78vh;
+}
+.box {
+  font-family: "Jost", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right, $color-primary, $color-secondary);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  & > * {
+    margin-bottom: 2rem;
+  }
+  &__img {
+    width: 40%;
+    display: block;
+  }
+  &__btn {
+    &,
+    &:link,
+    &:active {
+      color: $grey-l;
+      font-size: 3rem;
+      background: $color-pd;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      transition: $transition-s;
+    }
+    &:hover {
+      background: $color-primary;
+    }
+  }
+  &__quote {
+    width: 80%;
+    color: $grey-l;
+    text-align: justify;
+    font-size: 1.8rem;
+    background: $color-secondary;
+    padding: 1rem 2rem;
+    border: 2px solid $color-sd;
+    border-radius: 1rem;
+    &::before,
+    &::after {
+      content: '"';
+      font-size: 1.2em;
+    }
+  }
+  &__author {
+    font-size: 3rem;
+    color: $grey-l;
+    align-self: flex-end;
+    margin-right: 3rem;
+    &::before {
+      content: "-";
+      margin-right: 0.5rem;
+    }
+  }
+}

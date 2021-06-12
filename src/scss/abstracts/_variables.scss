@@ -1,0 +1,62 @@
+//==========================================
+// Color Palette
+//==========================================
+$color-pl: #a6f8c5;
+$color-primary: #38ef7d;
+$color-pd: #0eb34c;
+
+$color-sl: #29e7d8;
+$color-secondary: #11998e;
+$color-sd: #0a5c55;
+
+$black: #000000;
+$white: #ffffff;
+
+$grey-d: #333333;
+$grey-m: #999999;
+$grey-l: #eeeeee;
+
+//==========================================
+// Box-Shadows
+//==========================================
+$shadow-s: 0 0.5rem 1rem rgba($black, 0.2);
+$shadow-m: 0 0.5rem 1rem rgba($black, 0.5);
+$shadow-l: 0 0.5rem 1rem rgba($black, 0.9);
+
+//==========================================
+// transition
+//==========================================
+$transition-s: all 0.2s linear;
+$transition-m: all 0.5s linear;
+$transition-l: all 1s linear;
+
+//==========================================
+// CSS Custom Property
+//==========================================
+/*
+:root {
+  --color-pl: #a6f8c5;
+  --color-primary: #38ef7d;
+  --color-pd: #0eb34c;
+
+  --color-sl: #29e7d8;
+  --color-secondary: #11998e;
+  --color-sd: #0a5c55;
+
+  --black: #000;
+  --white: #fff;
+
+  --grey-d: #333;
+  --grey-m: #999;
+  --grey-l: #eee;
+
+  // Box Shadow
+  --shadow-s: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  --shadow-m: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  --shadow-l: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
+  // Transitions
+  --transition-s: all 0.2s linear;
+  --transition-m: all 0.5s linear;
+  --transition-l: all 1s linear;
+}
+*/

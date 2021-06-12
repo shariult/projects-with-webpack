@@ -1,0 +1,20 @@
+//==========================================
+// Clearing Floats
+//==========================================
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+//==========================================
+// Responsive Design
+//==========================================
+@mixin responsive($screenWidth) {
+  $breakpoint: $screenWidth / 16;
+  @media only screen and (max-width: $breakpoint + em) {
+    @content;
+  }
+}

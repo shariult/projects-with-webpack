@@ -1,0 +1,38 @@
+.nav {
+  background: linear-gradient(to right, $color-primary, $color-secondary);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  &__logo {
+    display: block;
+    width: 5rem;
+    margin-left: 2rem;
+  }
+  &__list {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    list-style-position: inside;
+    margin-right: 2rem;
+  }
+  &__link {
+    &,
+    &:link,
+    &:active {
+      color: $white;
+      text-decoration: none;
+      height: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      transition: $transition-s;
+    }
+    &:hover {
+      background-color: $color-pl;
+      color: inherit;
+    }
+    &:focus {
+      color: $color-primary;
+    }
+  }
+}
