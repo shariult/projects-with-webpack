@@ -38,7 +38,7 @@ const appPath = {
   libDir: `${projectDir}/jslib`,
   libFile: "vendor.js",
   imgDir: `${projectDir}/img`,
-  favicon: `${projectDir}/favicon.png`,
+  favicon: `${projectDir}/favicon.ico`,
   finalDir: `${buildDir}`,
   finalCssDir: "./css",
   finalCssIconDir: "./css/webfonts",
@@ -70,7 +70,7 @@ const htmlFileText = `<!DOCTYPE html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <title>Projects with Webpack 5</title>
   </head>
   <body>
