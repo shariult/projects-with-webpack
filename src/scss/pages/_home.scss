@@ -1,10 +1,11 @@
 .container {
   min-height: 78vh;
+  color: $grey-l1;
 }
 .box {
   font-family: "Jost", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right, $color-primary, $color-secondary);
+  background: $color-pd;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -20,25 +21,26 @@
     &,
     &:link,
     &:active {
-      color: $grey-l;
-      font-size: 3rem;
-      background: $color-pd;
+      color: inherit;
+      font-size: 2.4rem;
+      background: $color-se;
       text-decoration: none;
-      padding: 1rem 2rem;
+      padding: 0.8rem 1.6rem;
+      border-radius: 12px;
       transition: $transition-s;
     }
     &:hover {
-      background: $color-primary;
+      background: $color-sl;
+      transform: scale(1.05);
     }
   }
   &__quote {
     width: 80%;
-    color: $grey-l;
     text-align: justify;
     font-size: 1.8rem;
-    background: $color-secondary;
+    background: $color-pr;
     padding: 1rem 2rem;
-    border: 2px solid $color-sd;
+    border: 2px solid $color-pd;
     border-radius: 1rem;
     &::before,
     &::after {
@@ -48,7 +50,6 @@
   }
   &__author {
     font-size: 3rem;
-    color: $grey-l;
     align-self: flex-end;
     margin-right: 3rem;
     &::before {

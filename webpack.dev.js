@@ -9,9 +9,7 @@ const concat = require("concat"),
 // Environment setup
 //==========================================
 const projectDir = "./src"; // Project directory
-const files = autoConfig();
-/* // Manual Config Examples
-[
+const files = [
   {
     htmlFileName: "index.html",
     jsFiles: ["main.js", "index.js"],
@@ -21,7 +19,8 @@ const files = autoConfig();
     jsFiles: ["main.js"],
   },
 ];
-*/
+
+// const files = autoConfig();
 const buildDir = "./dist";
 
 //==========================================

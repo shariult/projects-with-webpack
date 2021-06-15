@@ -1,20 +1,26 @@
 //==========================================
 // Color Palette
 //==========================================
-$color-pl: #a6f8c5;
-$color-primary: #38ef7d;
-$color-pd: #0eb34c;
+$color-pl: #06717f;
+$color-pr: #044856;
+$color-pd: #022e38;
 
-$color-sl: #29e7d8;
-$color-secondary: #11998e;
-$color-sd: #0a5c55;
+$color-sl: #d84b59;
+$color-se: #bf424f;
+$color-sd: #793f4e;
 
 $black: #000000;
 $white: #ffffff;
 
-$grey-d: #333333;
-$grey-m: #999999;
-$grey-l: #eeeeee;
+// Grey Dark
+$grey-d1: #7a7e83;
+$grey-d2: #343a40;
+$grey-d3: #23272b;
+
+// Grey Light
+$grey-l1: #f7f7f7;
+$grey-l2: #eeeeee;
+$grey-l3: #e2e6ea;
 
 //==========================================
 // Box-Shadows
@@ -35,20 +41,26 @@ $transition-l: all 1s linear;
 //==========================================
 /*
 :root {
-  --color-pl: #a6f8c5;
-  --color-primary: #38ef7d;
-  --color-pd: #0eb34c;
+  --color-pl: #06717f;
+  --color-pr: #044856;
+  --color-pd: #022e38;
 
-  --color-sl: #29e7d8;
-  --color-secondary: #11998e;
-  --color-sd: #0a5c55;
+  --color-sl: #d84b59;
+  --color-se: #bf424f;
+  --color-sd: #793f4e;
 
-  --black: #000;
-  --white: #fff;
+  --black: #000000;
+  --white: #ffffff;
 
-  --grey-d: #333;
-  --grey-m: #999;
-  --grey-l: #eee;
+  // Grey Dark
+  --grey-d1: #7a7e83;
+  --grey-d2: #343a40;
+  --grey-d3: #23272b;
+
+  // Grey Light
+  --grey-l1: #f7f7f7;
+  --grey-l2: #eeeeee;
+  --grey-l3: #e2e6ea;
 
   // Box Shadow
   --shadow-s: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);

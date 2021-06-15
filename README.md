@@ -54,9 +54,9 @@ npm run build
 ## Usage
 
 1. **webpack.dev.js**: This file sets up the project environment. First setup the project directory by setting the value of "projectDir" variable.
-2. **auto config**: By default the value of "files" is set to "autoConfig()". This will automatically generate and include a JavaScript file based on the HTML/EJS files in the "projectDir". The JavaScript file will have the same name as your HTML/EJS file. This method is recommended.
-3. **manual config**:  Alternatively, manually define which HTML/EJS files to compile in the array called "files". This array contains multiple objects each containing 2 properties: "htmlFileName", "jsFiles". Simply, define the name of the HTML/EJS file with proper extension in "htmlFileName" and the names of the JavaScript files in the "jsFiles" array. Follow the example given in the "webpack.dev.js" file.
-4. Stylesheets such as CSS/SCSS/SASS should be imported via a JavaScript file that is linked by above method.
+2. **auto config**: The value of "files" can be set to "autoConfig()". This will automatically generate and include a JavaScript file based on the HTML/EJS files in the "projectDir". The JavaScript file will have the same name as your HTML/EJS file. This method is recommended.
+3. **manual config**:  Alternatively, manually define which HTML/EJS files to compile in the array called "files". This array contains multiple objects each containing 2 properties: "htmlFileName", "jsFiles". Simply, define the name of the HTML/EJS file with proper extension in "htmlFileName" and the names of the JavaScript files in the "jsFiles" array. An example is given in the "webpack.dev.js" file.
+4. **Stylesheets:** Stylesheets such as CSS/SCSS/SASS should be imported via a JavaScript file that is linked by above method. In manual method, "main.js" file is used to import stylesheets and for "autoconfig()" method use corresponding JavaScript file to import the stylesheets.
 5. **Precompiled JavaScript Files**: JavaScript files (such as minified JavaScript files that does not "export") can be included in HTML using the \<script\> tag if they are in "jslib" folder. Alternatively, All library files will merge and generate a "vendor.js" file within the projects "jslib/" directory.  Then add following code to the HTML/EJS page,
 
 ```javascript
