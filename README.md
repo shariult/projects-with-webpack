@@ -18,13 +18,13 @@ This Package is for Developing, Compiling & Building frontend technology such as
 
 ```bash
 npm i -D autoprefixer babel-loader clean-webpack-plugin concat css-loader ejs-easy-loader html-loader html-webpack-plugin image-minimizer-webpack-plugin imagemin-jpegtran imagemin-optipng imagemin-svgo imagemin-gifsicle mini-css-extract-plugin node-sass css-minimizer-webpack-plugin postcss postcss-loader prettier sass-loader style-loader webpack webpack-cli webpack-dev-server webpack-merge @babel/preset-env @babel/preset-react @babel/core @babel/plugin-transform-runtime @babel/runtime-corejs3 @babel/plugin-proposal-class-properties @fortawesome/fontawesome-free
-npm i -S bootstrap jquery popper.js bulma tailwindcss d3 axios
+npm i -S bootstrap jquery @popperjs/core bulma tailwindcss d3 axios
 npm run reset
 ```
 Or, In any bash terminal (Git bash too), run following to install all in one go,
 
 ```bash
-npm i -D autoprefixer babel-loader clean-webpack-plugin concat css-loader ejs-easy-loader html-loader html-webpack-plugin image-minimizer-webpack-plugin imagemin-jpegtran imagemin-optipng imagemin-svgo imagemin-gifsicle mini-css-extract-plugin node-sass css-minimizer-webpack-plugin postcss postcss-loader prettier sass-loader style-loader webpack webpack-cli webpack-dev-server webpack-merge @babel/preset-env @babel/preset-react @babel/core @babel/plugin-transform-runtime @babel/runtime-corejs3 @babel/plugin-proposal-class-properties @fortawesome/fontawesome-free && npm i -S bootstrap jquery popper.js bulma tailwindcss d3 axios && npm run reset
+npm i -D autoprefixer babel-loader clean-webpack-plugin concat css-loader ejs-easy-loader html-loader html-webpack-plugin image-minimizer-webpack-plugin imagemin-jpegtran imagemin-optipng imagemin-svgo imagemin-gifsicle mini-css-extract-plugin node-sass css-minimizer-webpack-plugin postcss postcss-loader prettier sass-loader style-loader webpack webpack-cli webpack-dev-server webpack-merge @babel/preset-env @babel/preset-react @babel/core @babel/plugin-transform-runtime @babel/runtime-corejs3 @babel/plugin-proposal-class-properties @fortawesome/fontawesome-free && npm i -S bootstrap jquery @popperjs/core bulma tailwindcss d3 axios && npm run reset
 ```
 
 
@@ -83,7 +83,7 @@ const projectDir = "./example-project"; // Project directory
 **Installation:**
 
 ```bash
-npm i bootstrap jquery popper.js
+npm i bootstrap jquery @popperjs/core
 npm i -D @fortawesome/fontawesome-free
 ```
 
