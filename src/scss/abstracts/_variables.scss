@@ -23,18 +23,34 @@ $grey-l2: #eeeeee;
 $grey-l3: #e2e6ea;
 
 //==========================================
-// Box-Shadows
+// Grid
 //==========================================
-$shadow-s: 0 0.5rem 1rem rgba($black, 0.2);
-$shadow-m: 0 0.5rem 1rem rgba($black, 0.5);
-$shadow-l: 0 0.5rem 1rem rgba($black, 0.9);
+$grid-width: 132rem;
+$gutter-horizontal: 6rem; // grid horizontal margin/padding
+$gutter-vertical: 8rem; // grid vertical margin/padding
+$row-padding: 8rem 6rem;
 
 //==========================================
-// transition
+// Box-Shadows
 //==========================================
-$transition-s: all 0.2s linear;
+$shadow-s: 0.25rem 0.5rem 1rem rgba($grey-d3, 0.2);
+$shadow-m: 0.25rem 0.5rem 1rem rgba($grey-d3, 0.5);
+$shadow-l: 0.25rem 0.5rem 1rem rgba($grey-d3, 0.9);
+
+//==========================================
+// Transition
+//==========================================
+$transition-s: all 0.3s linear;
 $transition-m: all 0.5s linear;
-$transition-l: all 1s linear;
+$transition-l: all 0.7s linear;
+
+//==========================================
+// Additional
+//==========================================
+$space-s: 1.2rem;
+$space-m: 1.6rem;
+$space-l: 2.4rem;
+$space-xxl: 3.6rem;
 
 //==========================================
 // CSS Custom Property
@@ -62,13 +78,26 @@ $transition-l: all 1s linear;
   --grey-l2: #eeeeee;
   --grey-l3: #e2e6ea;
 
-  // Box Shadow
-  --shadow-s: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  --shadow-m: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
-  --shadow-l: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
-  // Transitions
-  --transition-s: all 0.2s linear;
+  // Grid
+  --grid-width: 132rem;
+  --gutter-horizontal: 6rem; // grid horizontal margin/padding
+  --gutter-vertical: 8rem; // grid vertical margin/padding
+  --row-padding: 8rem 6rem;
+
+  // Box-Shadows
+  --shadow-s: 0.25rem 0.5rem 1rem rgba($grey-d3, 0.2);
+  --shadow-m: 0.25rem 0.5rem 1rem rgba($grey-d3, 0.5);
+  --shadow-l: 0.25rem 0.5rem 1rem rgba($grey-d3, 0.9);
+
+  // Transition
+  --transition-s: all 0.3s linear;
   --transition-m: all 0.5s linear;
-  --transition-l: all 1s linear;
+  --transition-l: all 0.7s linear;
+
+  // Additional
+  --space-s: 1.2rem;
+  --space-m: 1.6rem;
+  --space-l: 2.4rem;
+  --space-xxl: 3.6rem;
 }
 */

@@ -6,7 +6,7 @@ const path = require("path"),
   { CleanWebpackPlugin } = require("clean-webpack-plugin"),
   { merge } = require("webpack-merge"),
   terserWebpackPlugin = require("terser-webpack-plugin"),
-  htmlWebpackPlugin = require("html-webpack-plugin"),
+  HtmlWebpackPlugin = require("html-webpack-plugin"),
   miniCssExtractPlugin = require("mini-css-extract-plugin"),
   cssMinimizerPlugin = require("css-minimizer-webpack-plugin"),
   imageMinimizerPlugin = require("image-minimizer-webpack-plugin"),
@@ -41,7 +41,7 @@ const plugins = files.map((file) => {
       removeComments: true,
     };
   }
-  return new htmlWebpackPlugin(obj);
+  return new HtmlWebpackPlugin(obj);
 });
 const commonConfig = {
   entry,
@@ -88,7 +88,7 @@ const commonConfig = {
         },
       },
       {
-        test: /\.(gif|jpe?g|tiff|a?png|webp|bmp|svg|tiff?)$/,
+        test: /\.(gif|jpe?g|tiff|a?png|webp|bmp|svg|tiff?|ico)$/,
         exclude: [
           /(node_modules|bower_components)/,
           path.resolve(__dirname, `${appPath.scssDir}`),
@@ -162,12 +162,7 @@ const productionConfig = {
           ["jpegtran", { progressive: true }],
           ["optipng", { optimizationLevel: 5 }],
           ["gifsicle", { interlaced: true, optimizationLevel: 3 }],
-          [
-            "svgo",
-            {
-              plugins: [{ removeViewBox: true }, { cleanupIDs: false }],
-            },
-          ],
+          ["svgo", { removeViewBox: true, cleanupIDs: false }],
         ],
       },
     }),
