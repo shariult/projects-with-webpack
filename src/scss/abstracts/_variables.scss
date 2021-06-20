@@ -28,7 +28,7 @@ $grey-l3: #e2e6ea;
 $grid-width: 132rem;
 $gutter-horizontal: 6rem; // grid horizontal margin/padding
 $gutter-vertical: 8rem; // grid vertical margin/padding
-$row-padding: 8rem 6rem;
+$section-padding: 8rem 6rem;
 
 //==========================================
 // Box-Shadows
@@ -47,11 +47,11 @@ $transition-l: all 0.7s linear;
 //==========================================
 // Additional
 //==========================================
-$size-xs: 0.8rem;
-$size-s: 1.2rem;
-$size-m: 1.6rem;
-$size-l: 2.4rem;
-$size-xl: 3.6rem;
+$space-xs: 0.8rem;
+$space-s: 1.2rem;
+$space-m: 1.6rem;
+$space-l: 2.4rem;
+$space-xl: 3.6rem;
 
 //==========================================
 // CSS Custom Property
@@ -83,7 +83,7 @@ $size-xl: 3.6rem;
   --grid-width: 132rem;
   --gutter-horizontal: 6rem; // grid horizontal margin/padding
   --gutter-vertical: 8rem; // grid vertical margin/padding
-  --row-padding: 8rem 6rem;
+  --section-padding: 8rem 6rem;
 
   // Box-Shadows
   --shadow-s: 0.25rem 0.5rem 1rem rgba($grey-d3, 0.2);
