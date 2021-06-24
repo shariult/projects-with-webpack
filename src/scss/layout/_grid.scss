@@ -1,11 +1,7 @@
 //==========================================
 // Grid
 //==========================================
-.container {
-  width: 100%;
-}
-
-.row-fluid {
+.grid-1320 {
   max-width: $grid-width;
   margin: 0 auto;
   &:not(:last-child) {
